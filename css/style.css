@@ -34,25 +34,27 @@ body{
 }
 
 .content-style{
-    height: 350px;
+    background-color: #09696e69;
+    height: 320px;
     padding: 40px 0px;
 }
 
 .content{
-    font-family: 'Cormorant Upright', serif;
-    font-style: italic;
-    font-size: 1.5em;
     color: #4e8ed8;
     display: block;
     margin: 0px 40px;
     padding: 0px 80px;
     height: 360px;
+    overflow: hidden;
 }
 
 .content p{
-    background-color: #09696e69;
-    width: 30%;
+    font-family: 'Cormorant Upright', serif;
+    font-style: italic;
+    font-size: 24px;
+    width: 33%;
     display: inline-block;
+    vertical-align: text-top;
 }
 
 nav{
