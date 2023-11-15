@@ -1,0 +1,58 @@
+body{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 16px;  
+}
+
+.header-style{
+    height: 300px;
+    padding: 80px 0px;
+
+}
+
+
+.header{
+    margin: 0 15em;
+    display:block;
+    height: 300px;
+    padding: 0px 10em;
+    text-align: center;
+    color: black;
+    border-color: black;
+}
+
+.header h1 {
+    font-family: 'Bitter', serif;
+    font-size: 48px;
+}
+
+.header h3{
+    font-family: 'Bitter', serif;
+    font-size: 32px;
+}
+
+.content-style{
+    height: 350px;
+    padding: 40px 0px;
+}
+
+.content{
+    font-family: 'Cormorant Upright', serif;
+    font-style: italic;
+    font-size: 1.5em;
+    color: #4e8ed8;
+    display: block;
+    margin: 0px 40px;
+    padding: 0px 80px;
+    height: 360px;
+}
+
+.content p{
+    background-color: #09696e69;
+    width: 30%;
+    display: inline-block;
+}
+
+
