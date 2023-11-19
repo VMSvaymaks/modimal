@@ -34,12 +34,13 @@ body{
 }
 
 .content-style{
-    background-color: #09696e69;
+    
     height: 320px;
     padding: 40px 0px;
 }
 
 .content{
+    background-color: #09696e69;
     color: #4e8ed8;
     display: block;
     margin: 0px 40px;
@@ -60,4 +61,21 @@ body{
 nav{
     border: groove;
     font-size: 24px;
+}
+
+.fa-solid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#fcfffc;
+    margin: 2px 5px;
+    border: solid;
+    border-color: #fcfffc;
+    width: 35px;
+    height: 35px;
+}
+
+.fa-solid:hover{
+    color: #000;
+    border-color: #000;
 }
