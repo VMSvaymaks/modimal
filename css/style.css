@@ -3,7 +3,12 @@ body{
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    font-size: 16px;  
+    font-size: 16px;
+}
+
+nav{
+    border: groove;
+    font-size: 24px;
 }
 
 .header-style{
@@ -58,11 +63,6 @@ body{
     vertical-align: text-top;
 }
 
-nav{
-    border: groove;
-    font-size: 24px;
-}
-
 .fa-solid{
     display: flex;
     align-items: center;
@@ -80,3 +80,100 @@ nav{
     border-color: #000;
 }
 
+
+
+
+.conn1{
+    position: static;
+    width: 900px;
+    height: 250px;
+    background-color: #797979;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+    margin: 30px;
+    flex-wrap: wrap;
+}
+
+.box1{
+    position: static;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+}
+
+.conn2{
+    position: relative;
+    width: 900px;
+    height: 250px;
+    background-color: #797979;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+    margin: 30px;
+    flex-wrap: wrap;
+}
+
+.box2{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.box2:last-child{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: end;
+    border: 1px solid black;
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+}
+
+.b2{
+    background-color: #F9ED69;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 15px;
+    border: 1px solid black;
+}
+
+.conn3{
+    position: relative;
+    width: 900px;
+    height: 250px;
+    background-color: #797979;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+    margin: 30px;
+    flex-wrap: wrap;
+}
+
+.box3{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.box3:first-child{
+    position: inherit;
+    top: -74px;
+    left: -72px;
+}
+
+.box3:last-child{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: relative;
+    top: 10px;
+    right: 195px;
+}
