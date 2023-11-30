@@ -185,3 +185,14 @@ nav{
 
     align-items: center;
 }
+
+
+.box-sprite{
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    background: url(../img/sprite.png);
+    width: calc(2705px/5);
+    height: calc(1028px/2);
+}
