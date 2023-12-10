@@ -1,17 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>informatin</title>
-</head>
-    <body>
-        <div class="container">
-            <div class="item item__style">
-                <h1>HELLO</h1>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam numquam, quae eaque, in rem ullam optio facere amet ipsam ex iure quidem minus? Recusandae, repellat.</p>
-                <img src="./img/reference2.jpg" alt="non">
-            </div>
-        </div>
-    </body>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="" alt="LOGO" />
+      <nav>
+        <ul class="nav__list">
+          <li>
+            <a href="#">textiles</a>
+            <!--<ul><a href="#">badroom</a></ul>
+                        <ul><a href="#">sleepy</a></ul>-->
+          </li>
+          <li><a href="#">about</a></li>
+          <li><a href="#">contact</a></li>
+        </ul>
+      </nav>
+      <a class="bta" href="#"><button>lean more</button></a>
+    </header>
+
+    <form action="https://google.com">
+      <input type="date" />
+      <input type="radio" name="gender" value="male" id="male" />
+      <label for="male">male</label>
+      <input type="radio" name="gender" value="female" id="female" />
+      <label for="female">female</label>
+    </form>
+
+    <select name="charset" id="marks">
+      <option value="volvo">volvo</option>
+      <option value="saab">saab</option>
+      <option value="fiat" selected>fiat</option>
+    </select>
+
+    <input type="text" placeholder="helo" />
+    <input type="mail" name="mail" placeholder="example@gmail.com"/>
+
+    <input type="password" name="password" required />
+
+    <input type="number" name="some_number" id="space" />
+    <button>send</button>
+
+    <p>this is text</p>
+    <span>2</span>
+
+    <div class="cont">
+      <p>notification</p>
+    </div>
+  </body>
 </html>
