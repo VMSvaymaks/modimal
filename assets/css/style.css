@@ -1,0 +1,18 @@
+.head__bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+.nav__items li{
+    display: inline-block;
+
+}
+
+.nav__items a{
+    text-decoration: none;
+    
+    
+}
