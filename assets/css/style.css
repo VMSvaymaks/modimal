@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: "Gill Sans MT";
   src: url(../fonts/gill/gillsansmt.ttf);
@@ -269,6 +270,24 @@
   flex-shrink: 0;
 }
 
+.coll__btn {
+  display: flex;
+  width: 185px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  text-decoration: none;
+  color: #0c0c0c;
+  background-color: var(--white-color);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+
 .coll__left--pic2 {
   display: flex;
   height: 518px;
@@ -293,22 +312,38 @@
   background-image: url("../img/coll-left1.png");
   border: none;
 }
-.coll__btn {
+
+.collection__right {
   display: flex;
-  width: 185px;
-  height: 40px;
+  width: 600px;
+  height: 1419px;
+  flex-direction: column;
   justify-content: center;
+  align-items: flex-start;
+  gap: 144px;
+  flex-shrink: 0;
+}
+.coll__right--pic1 {
+  display: flex;
+  width: 600px;
+  height: 840px;
+  padding: 784px 399px 16px 16px;
+  flex-direction: column;
+  justify-content: flex-end;
   align-items: center;
-  gap: 4px;
-  text-decoration: none;
-  color: #0c0c0c;
-  background-color: var(--white-color);
-  font-family: Montserrat;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  text-transform: capitalize;
+  flex-shrink: 0;
+  background-image: url("../img/coll-right1.png");
+  border: none;
 }
 
-
+.coll__right--pic2 {
+  display: flex;
+  width: 600px;
+  height: 435px;
+  padding: 379px 16px 16px 417px;
+  justify-content: flex-end;
+  align-items: center;
+  flex-shrink: 0;
+  background-image: url("../img/coll-right2.png");
+  border: none;
+}
