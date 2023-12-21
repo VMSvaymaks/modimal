@@ -8,6 +8,17 @@
   src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
 }
 
+:root {
+  --pink-color: #d0a5ea;
+  --primary-color: #748c70;
+  --sky-blue-color: #7dc3eb;
+  --black-color: #0c0c0c;
+  --light-green-color: #909225;
+  --blue-color: #19418e;
+  --neutral-gray-color: #404040;
+  --white-color: #fff;
+}
+
 .head__bar {
   display: flex;
   justify-content: space-around;
@@ -116,7 +127,8 @@
   justify-content: center;
   align-items: flex-start;
   gap: 24px;
-  margin: 99px 0;
+  margin-top: 99px;
+  margin-left: 108px;
 }
 
 .cart {
@@ -135,7 +147,7 @@
   justify-content: space-between;
   align-items: center;
   flex-shrink: 0;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
 }
 .cart--info-propertie {
   display: flex;
@@ -210,3 +222,93 @@
 .box--primary {
   background-color: #748c70;
 }
+
+.box__light-green {
+  background-color: #909225;
+}
+
+.box__blue {
+  background-color: #19418e;
+}
+
+.box__pink {
+  background: #d0a5ea;
+}
+
+.collection {
+  display: flex;
+  margin-left: 108px;
+  margin-top: 94px;
+  width: 1224px;
+  height: 1419px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24px;
+  flex-shrink: 0;
+}
+
+.collection__right {
+  display: flex;
+  width: 600px;
+  height: 1419px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 144px;
+  flex-shrink: 0;
+}
+
+.collection__left {
+  display: flex;
+  width: 600px;
+  height: 1419px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 64px;
+  flex-shrink: 0;
+}
+
+.coll__left--pic2 {
+  display: flex;
+  height: 518px;
+  padding: 462px 16px 16px 399px;
+  justify-content: flex-end;
+  align-items: center;
+  flex-shrink: 0;
+  align-self: stretch;
+  background-image: url("../img/coll-left2.png");
+  border: none;
+}
+
+.coll__left--pic1 {
+  display: flex;
+  height: 837px;
+  padding: 781px 16px 16px 399px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  flex-shrink: 0;
+  align-self: stretch;
+  background-image: url("../img/coll-left1.png");
+  border: none;
+}
+.coll__btn {
+  display: flex;
+  width: 185px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  text-decoration: none;
+  color: #0c0c0c;
+  background-color: var(--white-color);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+
+
