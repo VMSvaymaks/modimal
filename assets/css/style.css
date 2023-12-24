@@ -1,0 +1,27 @@
+@import "componets/animation.css";
+@import "componets/reset.css";
+body {
+  background: url("../img/ocean.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: var(--white);
+  color: var(--moonstone);
+
+}
+:root {
+  --moonstone: rgb(0, 0, 0);
+  --white: #ffffffff;
+  --paynes-gray: rgb(30, 60, 71);
+  --antiflash-white: #eeeeeeff;
+  --atomic-tangerine: #e39774ff;
+  --timberwolf: #d6d2d2ff;
+  --pale-purple: #f1e4f3ff;
+  --orchid-pink: #f4bbd3ff;
+  --persian-pink: #f686bdff;
+  --cyclamen: #fe5d9fff;
+  --font-family: "Cormorant Upright", serif;
+  --font-family: "Playfair Display", serif;
+}
+
