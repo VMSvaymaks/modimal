@@ -1,3 +1,10 @@
+.absolutize {
+  background-color: #fff5f8;
+  position: absolute;
+  overflow-x: hidden;
+  max-width: 1440px;
+}
+
 @font-face {
   font-family: "Gill Sans MT";
   src: url(../fonts/gill/gillsansmt.ttf);
@@ -188,6 +195,7 @@
   font-weight: 700;
   line-height: 140%; /* 22.4px */
   text-transform: capitalize;
+  padding-right: 8px;
 }
 
 .cart--info--colors {
@@ -354,6 +362,13 @@
   gap: 24px;
   flex-shrink: 0;
   border: none;
+  margin-bottom: 48px;
+}
+
+.modiweek:hover{
+  width: 1145px;
+  background-color: #fff5f8;
+  transition: 4s;
 }
 
 .modi__cart {
@@ -463,6 +478,7 @@
   height: 540px;
   gap: 24px;
   flex-shrink: 0;
+  margin-bottom: 48px;
 }
 
 .cart__icon {
@@ -682,6 +698,7 @@
   font-weight: 700;
   line-height: 140%; /* 22.4px */
   text-transform: capitalize;
+  padding-right: 8px;
 }
 
 .back__modiframe1-1 {
@@ -747,6 +764,7 @@
   line-height: 140%; /* 22.4px */
   text-transform: capitalize;
   color: var(--Black, #0c0c0c);
+  padding-right: 8px;
 }
 
 .back__modiframe1-2 {
@@ -776,7 +794,7 @@
   flex-shrink: 0;
 }
 
-.pic-pull{
+.pic-pull {
   background-image: url("../img/pic-pull.png");
 }
 
@@ -802,4 +820,18 @@
 
 .back__pull3-2 {
   background-image: url("../img/pull3.2.png");
-} 
+}
+
+.cart:hover,
+.modi__cart:hover {
+  box-shadow: 0 0 20px #00fffb, 0 0 40px #008bc1;
+}
+
+.absolut {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
