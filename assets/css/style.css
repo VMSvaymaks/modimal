@@ -146,6 +146,7 @@
   width: 392px;
   height: 540px;
   flex-shrink: 0;
+  transition: 0.5s;
 }
 
 .cart--info {
@@ -365,7 +366,7 @@
   margin-bottom: 48px;
 }
 
-.modiweek:hover{
+.modiweek:hover {
   width: 1145px;
   background-color: #fff5f8;
   transition: 4s;
@@ -458,6 +459,13 @@
 
 .content {
   grid-area: content;
+  display: flex;
+  row-gap: 24px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .loader {
@@ -772,8 +780,11 @@
 }
 
 .head--centered {
+  position: relative;
+  width: 1440px;
+  height: 746px;
   display: flex;
-  margin-left: 108px;
+  margin: 108px;
 }
 
 .cart__rectangle1 {
@@ -824,7 +835,8 @@
 
 .cart:hover,
 .modi__cart:hover {
-  box-shadow: 0 0 20px #00fffb, 0 0 40px #008bc1;
+  box-shadow: 0 0 20px #e212f5, 0 0 40px #7d6ae4;
+  transition: 0.5s;
 }
 
 .absolut {
@@ -834,4 +846,3 @@
 .relative {
   position: relative;
 }
-
