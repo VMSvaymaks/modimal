@@ -1,7 +1,7 @@
 .absolutize {
   background-color: #fff5f8;
-  position: absolute;
   overflow-x: hidden;
+  margin: 0 auto;
   max-width: 1440px;
 }
 
