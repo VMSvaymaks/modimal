@@ -4,37 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>informatin</title>
-    <link rel="stylesheet" href="./css/style.css" />
-    <script src="main.js"></script>
+    <link rel="stylesheet" href="assets/css/components/reset.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.css"
+      integrity="sha512-tx5+1LWHez1QiaXlAyDwzdBTfDjX07GMapQoFTS74wkcPMsI3So0KYmFe6EHZjI8+eSG0ljBlAQc3PQ5BTaZtQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-    <div class="backimg">
-      <header>
-        <img class="logo logo__style" src="#" alt="LOGO" />
-        <nav>
-          <ul class="nav__list">
-            <li>
-              <a href="#">textiles</a>
-              <!--<ul><a href="#">badroom</a></ul>
-                        <ul><a href="#">sleepy</a></ul>-->
-            </li>
-            <li><a href="#">about</a></li>
-            <li><a href="#">contact</a></li>
-          </ul>
-        </nav>
-        <a class="bta" href="#"><button>lean more</button></a>
-      </header>
-
-      <div class="input__box">
-        <div class="inputbox">
-          <input type="text" required="required" />
-          <span>First name</span>
-        </div>
-        <div class="inputbox">
-          <input type="text" required="required" />
-          <span>Last name</span>
-        </div>
+    <div class="card">
+      <div class="card__image">
+        <i class="fa-solid fa-heart" id="heartIcon" onclick="toggleHeart()"></i>
+      </div>
+      e
+      <div class="content card__content">
+        <h2 class="card__title">
+          <i class="fa-solid fa-dragon"></i> fashion is here
+        </h2>
+        <p class="card__description">textile and digital</p>
+        <span class="card__subtitle">180$</span>
       </div>
     </div>
+    <script src="assets/main.js"></script>
   </body>
 </html>

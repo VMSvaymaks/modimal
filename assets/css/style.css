@@ -1,27 +1,103 @@
-@import "componets/animation.css";
-@import "componets/reset.css";
-body {
-  background: url("../img/ocean.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-color: var(--white);
-  color: var(--moonstone);
+:root {
+  /*HEXREF*/
+  --gunmetal: #092327ff;
+  --dark-slate-gray: #0b5351ff;
+  --light-sea-green: #00a9a5ff;
+  --air-force-blue: #4e8098ff;
+  --light-sky-blue: #90c2e7ff;
+  /*hex pink*/
+  --lavender-pink: #ffb8d1ff;
+  --orchid-pink: #e4b4c2ff;
+  --thistle: #e7cee3ff;
+  --ghost-white: #e0e1e9ff;
+  --light-cyan: #ddfdfeff;
+  /*hehx purple*/
+  --pink-lavender: #e4b7e5ff;
+  --wisteria: #cba0d3ff;
+  --african-violet: #b288c0ff;
+  --african-violet-2: #9871aeff;
+  --royal-purple: #7e5a9bff;
+  --ultra-violet: #715093ff;
+  --ultra-violet-2: #63458aff;
+  --royal-purple-2: #7f47adff;
+  --purpureus: #8d48bfff;
+  --veronica: #9a48d0ff;
+  --red: rgb(209, 10, 20);
+  /*hex combinable*/
+  --platinum: #ebe9e9ff;
+  --white-smoke: #eff1eeff;
+  --mint-cream: #f3f8f2ff;
+  --steel-blue: #3581b8ff;
+  --taupe-gray: #99999bff;
+  --sandy-brown: #fcb07eff;
+  --desert-sand: #edc9aaff;
+  --alabaster: #dee2d6ff;
+}
+
+.card {
+  background-color: var(--gunmetal);
+  border: 1px solid var(--dark-slate-gray);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  width: 392px;
+  height: 540px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 10px 3px var(--light-sea-green);
+}
+
+.card__image {
+  background-image: url("../img/cool.png");
+  width: 392px;
+  height: 438px;
+  border-radius: 5px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
 
 }
-:root {
-  --moonstone: rgb(0, 0, 0);
-  --white: #ffffffff;
-  --paynes-gray: rgb(30, 60, 71);
-  --antiflash-white: #eeeeeeff;
-  --atomic-tangerine: #e39774ff;
-  --timberwolf: #d6d2d2ff;
-  --pale-purple: #f1e4f3ff;
-  --orchid-pink: #f4bbd3ff;
-  --persian-pink: #f686bdff;
-  --cyclamen: #fe5d9fff;
-  --font-family: "Cormorant Upright", serif;
-  --font-family: "Playfair Display", serif;
+
+.card__content {
+  border: 1px solid var(--light-sea-green);
+  text-shadow: 1px 1px 2px var(--light-sea-green);
+  color: var(--light-cyan);
+  border-radius: 5px;
+  padding: 5px;
+  letter-spacing: 3px;
+  row-gap: 5px;
+}
+
+.card__title {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card__description {
+  font-size: 15px;
+  text-align: center;
+}
+
+.card__subtitle {
+  font-size: 15px;
+  text-align: center;
+}
+
+.fa-heart {
+  color: var(--white-smoke);
+  padding-left: 7px;
+  padding-top: 7px;
+}
+
+.heart--active {
+  color: red;
 }
 

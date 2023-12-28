@@ -2,18 +2,82 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>damian`s shop</title>
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;500&family=Playfair+Display:ital,wght@1,400;1,600&display=swap"
-      rel="stylesheet"
-    />
-
-    <body>
-      
-    </body>
+    <title>Merchandise Market Database</title>
+    <link rel="stylesheet" href="assets/css/components/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
   </head>
+  <body>
+    <h2>Entities:</h2>
+
+    <h3>Product:</h3>
+    <table class="entity">
+      <tr>
+        <th class="primary-key">ProductID</th>
+        <th>ProductName</th>
+        <th>CategoryID</th>
+        <th>Price</th>
+        <th>QuantityInStock</th>
+        <th>SupplierID</th>
+      </tr>
+      <!-- Add rows for Product data here -->
+    </table>
+
+    <h3>Category:</h3>
+    <table class="entity">
+      <tr>
+        <th class="primary-key">CategoryID</th>
+        <th>CategoryName</th>
+      </tr>
+      <!-- Add rows for Category data here -->
+    </table>
+
+    <h3>Supplier:</h3>
+    <table class="entity">
+      <tr>
+        <th class="primary-key">SupplierID</th>
+        <th>SupplierName</th>
+        <th>ContactPerson</th>
+        <th>ContactNumber</th>
+        <th>Email</th>
+      </tr>
+      <!-- Add rows for Supplier data here -->
+    </table>
+
+    <h3>Customer:</h3>
+    <table class="entity">
+      <tr>
+        <th class="primary-key">CustomerID</th>
+        <th>FirstName</th>
+        <th>LastName</th>
+        <th>Email</th>
+        <th>Phone</th>
+      </tr>
+      <!-- Add rows for Customer data here -->
+    </table>
+
+    <h3>Order:</h3>
+    <table class="entity">
+      <tr>
+        <th class="primary-key">OrderID</th>
+        <th>CustomerID</th>
+        <th>OrderDate</th>
+        <th>TotalAmount</th>
+      </tr>
+      <!-- Add rows for Order data here -->
+    </table>
+
+    <h3>OrderItem:</h3>
+    <table class="entity">
+      <tr>
+        <th class="primary-key">OrderItemID</th>
+        <th>OrderID</th>
+        <th>ProductID</th>
+        <th>Quantity</th>
+        <th>Subtotal</th>
+      </tr>
+      <!-- Add rows for OrderItem data here -->
+    </table>
+  </body>
 </html>
